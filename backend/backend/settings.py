@@ -15,6 +15,8 @@ ALLOWED_HOSTS = [
     '*'
 ]
 
+AUTH_USER_MODEL = 'core.CustomUser'
+
 CSRF_FAILURE_VIEW = 'core.views.csrf_failure'
 
 INSTALLED_APPS = [
